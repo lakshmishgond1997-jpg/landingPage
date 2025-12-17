@@ -4,7 +4,7 @@ import { useAppContext } from '../context/ContextProvider';
 
 function Winners() {
   const { API_BASE_URL } = useAppContext();
-  const [winners, setWinners] = useState([]); // always an array
+  const [winners, setWinners] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
