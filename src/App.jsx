@@ -33,11 +33,6 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Landing />} />
-      <Route path="/quiz" element={<Quiz />} />
-      <Route path="/admin" element={<Admin />} />
-      <Route path="/registration" element={<Registration />} />
-      <Route path="/quizStatus" element={<QuizStatus />} />
-      <Route path="/winners" element={<Winners />} />
     </Routes>
   );
 }
