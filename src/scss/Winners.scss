@@ -1,0 +1,60 @@
+.winners {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+
+  h2 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+
+    th,
+    td {
+      padding: 0.8rem 1rem;
+      border: 1px solid #ddd;
+      text-align: left;
+      font-size: 1rem;
+      color: black;
+    }
+
+    th {
+      background-color: #007bff;
+      color: black;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f1f1f1;
+    }
+
+    tr:hover {
+      background-color: #e9ecef;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .winners {
+    padding: 1rem;
+
+    table,
+    th,
+    td {
+      font-size: 0.9rem;
+    }
+  }
+}

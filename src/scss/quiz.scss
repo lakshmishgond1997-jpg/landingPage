@@ -1,0 +1,21 @@
+@import './components/quizQuestions.scss';
+.quizStart {
+  width: 56vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #8042b2;
+  @include mobile {
+    width: 100%;
+  }
+  .quizStartContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    height: 90%;
+  }
+}

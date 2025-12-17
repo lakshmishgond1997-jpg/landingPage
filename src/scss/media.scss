@@ -1,0 +1,27 @@
+// media.scss
+
+$mobile: 768px;
+$tablet: 1024px;
+$desktop: 1280px;
+
+/* Mobile */
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
+/* Tablet */
+@mixin tablet {
+  @media (max-width: $tablet) {
+    @content;
+  }
+}
+
+/* Desktop */
+@mixin desktop {
+  @media (max-width: $desktop) {
+    @content;
+  }
+}
+$white: #ffffff;

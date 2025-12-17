@@ -1,0 +1,21 @@
+button {
+  padding: 5%;
+  width: 70%;
+  font-family: 'Avenir', sans-serif;
+  font-size: 3vh;
+  color: black;
+  background-color: rgb(214 240 55);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 auto;
+  @include mobile {
+    font-size: 5vw;
+  }
+}
+body {
+  font-family: 'Avenir', sans-serif;
+  padding: 0;
+  margin: 0;
+}
